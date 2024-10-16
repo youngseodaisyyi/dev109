@@ -21,6 +21,7 @@ float:left;
 }
 
 #container {
+ place-items: center;
  margin-top:20%;
  margin-left:10%;
  margin-right:10%;
@@ -45,6 +46,7 @@ float:left;
 }
 
 #footer {
+ background-color: #40e0d0;
  border:solid 1px;
  padding: 10px;
  margin:10px;
@@ -58,4 +60,3 @@ img {
 body {
  background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
-
