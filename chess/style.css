@@ -21,6 +21,7 @@ float:left;
 }
 
 #container {
+ place-items: center;
  margin-top:20%;
  margin-left:10%;
  margin-right:10%;
@@ -45,6 +46,7 @@ float:left;
 }
 
 #footer {
+ background-color: #40e0d0;
  border:solid 1px;
  padding: 10px;
  margin:10px;
