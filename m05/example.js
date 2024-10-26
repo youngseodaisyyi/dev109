@@ -11,7 +11,8 @@ if (num >= 1 && num <= 10) {
             msg += num + ' x ' + i + ' = ' + (num * i) + '<br>'; // Use <br> for line breaks
         }
 } else {
-        // Handle invalid input
+
+// Handle invalid input
         alert("Please enter a valid number between 1 and 10.");
     }
 
