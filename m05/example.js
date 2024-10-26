@@ -1,21 +1,19 @@
-var table = 3;             // Unit of table
-var operator = 'addition'; // Type of calculation
-var i = 1;                 // Set counter to 1
+var input = prompt("Input a number between 1 and 10 to see the multiplication table for the desired number.", "1-10"); // Prompt User
+var num = parseInt(input); // Convert input to an integer
 var msg = '';              // Message
 
-if (operator === 'addition') {
-  // Do addition
-  while (i < 11) {
-    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
-    i++;
-  }
+// Validate input
+if (num >= 1 && num <= 10) {
+        var msg = '<h2>Multiplication Table for ' + num + '</h2>'; // Start message
+
+// Generate multiplication table
+        for (var i = 1; i <= 10; i++) {
+            msg += number + ' x ' + i + ' = ' + (number * i) + '<br>'; // Use <br> for line breaks
+        }
 } else {
-  // Do multiplication
-  while (i < 11) {
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
-    i++;
-  }
-}
+        // Handle invalid input
+        alert("Please enter a valid number between 1 and 10.");
+    }
 
 // Write the message into the page
 var el = document.getElementById('blackboard');
