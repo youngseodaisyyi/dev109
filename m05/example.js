@@ -8,7 +8,7 @@ if (num >= 1 && num <= 10) {
 
 // Generate multiplication table
         for (var i = 1; i <= 10; i++) {
-            msg += number + ' x ' + i + ' = ' + (number * i) + '<br>'; // Use <br> for line breaks
+            msg += num + ' x ' + i + ' = ' + (num * i) + '<br>'; // Use <br> for line breaks
         }
 } else {
         // Handle invalid input
