@@ -1,17 +1,20 @@
-prompt("Input a number between 0-10 to see the multiplication table for the desired number.", "0-10"); // Prompt User
-var num = parseInt(input); // Convert input to an integer
-var operator = 'multiplication'; // Type of calculation
-var i = 1;  // Set counter to 1
+var table = 3;             // Unit of table
+var operator = 'addition'; // Type of calculation
+var i = 1;                 // Set counter to 1
+var msg = '';              // Message
 
- if (num >= 1 && num <= 10) {
-        var msg = '<h2>Multiplication Table for ' + number + '</h2><ul>';
-  for (var i = 1; i <= 10; i++) {
-            msg += '<li>' + number + ' x ' + i + ' = ' + (number * i) + '</li>'; // Add each calculation to the message
-        }
-        msg += '</ul>';
-   else {
-        alert("Please enter a valid number between 1 and 10.");
-    }
+if (operator === 'addition') {
+  // Do addition
+  while (i < 11) {
+    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />';
+    i++;
+  }
+} else {
+  // Do multiplication
+  while (i < 11) {
+    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
+    i++;
+  }
 }
 
 // Write the message into the page
