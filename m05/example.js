@@ -4,7 +4,7 @@ var msg = '';              // Message
 
 // Validate input
 if (num >= 1 && num <= 10) {
-        var msg = '<h2>Multiplication Table'</h2>'; // Start message
+        var msg = '<h2>Multiplication Table'</h2>'; // Message
 
 // Generate multiplication table
         for (var i = 1; i <= 10; i++) {
