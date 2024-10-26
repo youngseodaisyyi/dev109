@@ -1,4 +1,4 @@
-var input = prompt("Input a number between 0-10 to see the multiplication table for the desired number.", "0-10"); // Prompt User
+prompt("Input a number between 0-10 to see the multiplication table for the desired number.", "0-10"); // Prompt User
 var num = parseInt(input); // Convert input to an integer
 var operator = 'multiplication'; // Type of calculation
 var i = 1;  // Set counter to 1
