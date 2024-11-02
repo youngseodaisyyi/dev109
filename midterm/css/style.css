@@ -52,6 +52,7 @@ h1 {
     				margin-right: auto;
     				width: auto;
 				float: left;
+				overflow: auto;
 				margin: 1%;
                 		font-family: Arial, Verdana, sans-serif;
 				text-align: center;  
