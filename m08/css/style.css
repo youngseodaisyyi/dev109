@@ -11,6 +11,12 @@ body {
 	margin: 0 auto 0 auto;}
 	/* Responsive page rules at bottom of style sheet */
 
+.input-container {
+  display: flex;             
+  justify-content: center;   
+  gap: 10px;                 
+}
+
 h1 {
 	background-image: url(./images/kinglogo.png);
 	background-repeat: no-repeat;
