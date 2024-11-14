@@ -1,1 +1,54 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Form Validation</title>
+<script type="./css/style.css">
+  
+function checkForm(form)
+  {
+  var errors [];
+    
+  var re = /^[\w ]+$/;
+  if(form.inputfield.value == ""){
+    errors.push("Input is Empty!");
+    } else if(!re.test(form.inputfield.value)){
+    errors.push("Input contains invalid characters!");
+  }
+  
+  if (form.password1.value==""){
+    errors.push("Passwords is empty!"); 
+  } else if(form.password1.value != form.password2.value){
+    errors.push("Passwords don't match!");
+  }
+  
+  if (errors.length > 0) {
+    var msg = "ERRORS:\n\n";
+    for (var i=0; i<errors.length; i++) {
+      msg+=errors[i] + "\n";
+    }
+    alert(msg);
+    return false;
+  }
+  return true;
+  
+ }
+ 
+</script>
+</head>
+<body>
+<form method="post" action="form-handler.html" onsubmit="return checkForm(this);"
+  <p>Input:
+    <input type="text" size="32" name="inputfield">
+  </p>
+  <p>Enter Password:
+    <input type="password" size="10" name="password1">
+  </p>
+  <p>Repeat Password:
+    <input type="password" size="10" name="password2">
+  </p>
+  <p><input type="submit"></p>
+</form>
+</body>
+</html>
