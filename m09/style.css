@@ -1,1 +1,22 @@
+body {
+    height: 200px;
+    background: beige;
+  }
+  .dot {
+    height: 8px; width: 8px;
+    border-radius: 4px; /* rounds corners */
+    background: blue;
+    position: absolute;
+  }
 
+#cleanBtn {
+            position: fixed;
+            top: 40px;
+            left: 10px;
+            padding: 10px;
+            background-color: #B0C4DE;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
