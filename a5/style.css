@@ -24,8 +24,9 @@ body {
 /* Button styles */
 .buttons {
     display: flex;
-    justify-content: center; /* Centers the buttons horizontally */
-    margin-top: 20px; /* Adds some space between the description and the buttons */
+    justify-content: center; 
+    margin-top: 50px;
+    gap: 20px;
 }
 
 button {
