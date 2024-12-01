@@ -36,7 +36,7 @@ nextButton.addEventListener("click", function() {
 setInterval(function() {
     currentIndex = (currentIndex === images.length - 1) ? 0 : currentIndex + 1;
     updateCarousel();
-}, 5000);
+}, 10000);
 
 // Initial call to display the first image
 updateCarousel();
