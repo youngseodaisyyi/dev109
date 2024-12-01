@@ -23,7 +23,7 @@ body {
 
 /* Button styles */
 .buttons {
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     width: 100%;
     display: flex;
@@ -40,6 +40,7 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    z-index: 10; 
 }
 
 button:hover {
