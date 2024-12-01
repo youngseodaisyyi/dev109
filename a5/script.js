@@ -1,9 +1,9 @@
 const images = [
-    { src: "./fish.jpg", description: "This is the description for Image 1." },
-    { src: "./octopus.jpg", description: "This is the description for Image 2." },
-    { src: "./seahorse.jpg", description: "This is the description for Image 3." },
-    { src: "./turtle.jpg", description: "This is the description for Image 4." },
-    { src: "./whale.jpg", description: "This is the description for Image 5." }
+    { src: "../images/fish.jpg", description: "This is the description for Image 1." },
+    { src: "../images/octopus.jpg", description: "This is the description for Image 2." },
+    { src: "../images/seahorse.jpg", description: "This is the description for Image 3." },
+    { src: "../images/turtle.jpg", description: "This is the description for Image 4." },
+    { src: "../images/whale.jpg", description: "This is the description for Image 5." }
 ];
 
 let currentIndex = 0; // Track the current image index
