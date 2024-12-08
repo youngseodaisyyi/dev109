@@ -43,10 +43,19 @@ h1 {
 .column2 {
   background-color:#FFEFD5;
 }
-.column1,.column2{
-  width:45.3%;
+.column1{
+  width:46.3%;
   overflow:auto;
   float:left;
+  margin:1%;
+  font-family:Arial,Verdana,sans-serif;
+  text-align:center;
+}
+}
+.column2{
+  width:46.3%;
+  overflow:auto;
+  float:right;
   margin:1%;
   font-family:Arial,Verdana,sans-serif;
   text-align:center;
